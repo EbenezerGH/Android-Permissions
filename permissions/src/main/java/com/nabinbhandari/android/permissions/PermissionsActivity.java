@@ -95,7 +95,7 @@ public class PermissionsActivity extends Activity {
         new AlertDialog.Builder(this).setTitle(options.rationaleDialogTitle)
                 .setMessage(rationale)
                 .setPositiveButton(android.R.string.ok, listener)
-                .setNegativeButton(android.R.string.cancel, listener)
+                .setNegativeButton(R.string.skip, listener)
                 .setOnCancelListener(new DialogInterface.OnCancelListener() {
                     @Override
                     public void onCancel(DialogInterface dialog) {
